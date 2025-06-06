@@ -33,7 +33,6 @@ export class UserComponent {
       },
       error: (err) => {
         console.error('Error al cargar usuarios:', err);
-        // Aquí podrías mostrar un mensaje de error al usuario
       }
     });
   }
