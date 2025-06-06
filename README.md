@@ -14,6 +14,6 @@ Este proyecto es una solución para la gestión de pedidos y productos con usuar
 
 ## Tecnologías
 
-- PHP 8.2 + Laravel
+- C# 8 + .NET
 - SQL Server
 - Angular 17
