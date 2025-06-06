@@ -1,9 +1,7 @@
-using Backend.Application.Providers;
 using Backend.Application.Services;
 using Backend.Domain.Repositories;
 using Backend.Infrastructure.EntityFramework.Context;
 using Backend.Infrastructure.EntityFramework.Repositories;
-using Backend.Infrastructure.Provider;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
