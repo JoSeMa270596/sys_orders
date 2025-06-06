@@ -26,12 +26,14 @@ public static class BackendDI
         //add your Services
         //Activity
         collection.AddTransient<UserService>();
+        collection.AddTransient<ProductService>();
         return collection;
     }
 
     public static IServiceCollection RegisterRepositories(this IServiceCollection collection)
     {
         collection.AddTransient<IUserRepository, UserRepository>();
+        collection.AddTransient<IProductRepository, ProductRepository>();
         return collection;
     }
 }
